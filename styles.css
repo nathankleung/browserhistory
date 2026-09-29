@@ -1,0 +1,21 @@
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+}
+p, ul{
+    font-family: 'Open-Sans', sans-serif;
+    color: darkblue;
+}
+
+body{
+    color: darkblue;
+    margin: 10px 50px 10px;
+    background-color: ivory;
+    
+}
+
+
+.inline-img img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: auto;
+}
