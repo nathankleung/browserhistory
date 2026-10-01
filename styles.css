@@ -1,21 +1,37 @@
-h1, h2, h3 {
-    font-family: 'Oswald', sans-serif;
+p{
+    font-family: 'Times New Roman', sans-serif;
+    color: Black;
 }
-p, ul{
+ul{
     font-family: 'Open-Sans', sans-serif;
-    color: darkblue;
+    color: Black;
+    list-style-type: none;
+    padding: 0;
+    line-height: 250%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+li {
+    font-family: 'Times New Roman', sans-serif;
+    color: Black;
 }
 
 body{
-    color: darkblue;
-    margin: 10px 50px 10px;
+    color: Black;
+    margin: 40px 320px 200px 250px;
+    width: 475px;
+    line-height: 175%;
     background-color: ivory;
+    background-image: url('https://courses.ics.hawaii.edu/ics314f26/morea/ui-basics/page.gif');
+    background-repeat: no-repeat;
     
 }
 
 img{
     float: left;
     margin-right: 10px;
+    
 }
 .inline-img img{
     max-width: 100%;
@@ -35,18 +51,7 @@ img{
     margin-right: 75px;
 }
 
-.left{
-    float: left;
-    width: 300px;
-    padding: 0px;
-}
 
-.right{
-    float: right;
-    width: 300px;
-    padding: 0px;
-
-}
 .center{
     margin-left: 300px;
     margin-right: 300px;
@@ -54,7 +59,7 @@ img{
 }
 
 h1.fancy {
-    font-family: 'Style Script'; 
+    font-family: 'Cedarville Cursive'; 
     font-size: 50pt; 
     text-align: center;
     line-height: 135%;
@@ -73,11 +78,4 @@ a.left {
 a.right {
     float: right;
     font-weight: bold;
-}
-
-li {
-    margin-left: 5%;
-    margin-right: 5%;
-    font-family: 'Times New Roman';
-    font-size: 24px;
 }
