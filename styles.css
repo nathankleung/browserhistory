@@ -57,9 +57,10 @@ img{
     margin-right: 300px;
     padding: 0px;
 }
+@import url('https://googleapis.com');
 
 h1.fancy {
-    font-family: 'Pacifico'; 
+    font-family: 'Lobster', cursive; 
     font-size: 50pt; 
     text-align: center;
     line-height: 135%;
