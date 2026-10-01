@@ -52,3 +52,32 @@ img{
     margin-right: 300px;
     padding: 0px;
 }
+
+h1.fancy {
+    font-family: 'Style Script'; 
+    font-size: 50pt; 
+    text-align: center;
+    line-height: 135%;
+}
+
+h2.chapter {
+    font-size: 30pt;
+    text-align: center;
+}
+
+a.left {
+    float: left;
+    font-weight: bold;
+}
+
+a.right {
+    float: right;
+    font-weight: bold;
+}
+
+li {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+}
